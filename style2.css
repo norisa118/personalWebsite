@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+/*SOMETHING IN THIS CSS FILE IS JUST WRONG- NEEDS TO BE CENTERED Y-AXIS + SIZING WHEN SCREEN SHIFTED*/ 
+body{
+    font-family: 'Raleway', sans-serif; 
+    height: 100%; 
+    background: url('projBack.jpg') no-repeat center / cover ;
+    color: #ffffff; 
+    overflow:hidden; 
+}
+
+.container {
+    display: flex; 
+    flex-direction:column;
+    justify-content:center;
+    height:100%;
+    padding: 0 3rem; 
+}
+
+h1,h2 {
+    margin:0.4rem;
+}
+
+h1{
+    font-weight:400; 
+    font-size:3.5rem; 
+}
+
+h2{
+    font-weight:300; 
+    font-size: 2rem; 
+    color: #d4d4d4; 
+}
+
+/* adding cursor: */
+.txt-type > .txt {
+    border-right: 0.2rem solid #777; 
+}
+
+
+@media(min-width: 1200px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+@media(min-width: 800px) {
+    .container{
+        padding: 0 1rem; 
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 500px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 1.5rem; 
+    }
+}
+
