@@ -1,13 +1,109 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-/*SOMETHING IN THIS CSS FILE IS JUST WRONG- NEEDS TO BE CENTERED Y-AXIS + SIZING WHEN SCREEN SHIFTED*/ 
 body{
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Poppins', sans-serif;
     height: 100%; 
-    background: url('projBack.jpg') no-repeat center / cover ;
     color: #ffffff; 
-    overflow:hidden; 
     margin:0;
+}
+
+.nav-link{
+    color: #f9fdf5; 
+    padding-right: 26px; 
+}
+
+
+header{
+    background: url('projBack.jpg') no-repeat center / cover;
+}
+
+.feat{
+    color: #333333; 
+    text-align: center;
+    margin:20px; 
+    padding-top: 45px; 
+}
+
+.FeatProj{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+}
+
+body hr{
+    border-top: 2px solid #b4b4b4; 
+    width: 55%; 
+    margin-top: .3rem; 
+}
+
+.card{
+    margin-top: 45px;
+    margin-left: 45px; 
+    margin-right: 45px; 
+    margin-bottom: 45px;
+    width:25%; 
+    box-shadow: 2px 2px 10px rgba(0,0,0,.8);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display:inline-block; 
+}
+
+.card-title{
+    margin-left:10px;
+    color: #333333; 
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-top:10px;
+}
+
+.card-text{
+    margin-left:10px;
+    color:#333333;
+    padding-left:5px;
+}
+
+.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.animation{
+    margin:0; 
+    padding:0; 
+}
+
+.button{
+    margin-bottom:15px;
+    background-color: white;
+    border: 1px solid black; 
+    padding: 7px; 
+    border-radius:5px; 
+    cursor:pointer; 
+    
+}
+
+.centBut{
+    text-align:center; 
+}
+
+button:hover{
+    background-color: black;
+    color:white; 
+    transition: 0.2s;
+}
+
+.card-img-top{
+    width:100%; 
 }
 
 .container {
@@ -18,20 +114,20 @@ body{
     padding: 0 3rem; 
 }
 
-h1,h2 {
-    margin:0.4rem;
-}
-
-h1{
+h1 {
+    margin:0.7rem;
     font-weight:400; 
     font-size:3.5rem; 
 }
 
 h2{
-    font-weight:300; 
-    font-size: 2rem; 
-    color: #d4d4d4; 
+    font-size: 15px;
+    padding-left: 5px; 
+    padding-bottom:50px;
+    margin-top: -5px;
+    
 }
+
 
 /* adding cursor: */
 .txt-type > .txt {
